@@ -18,7 +18,7 @@ public class ProductController {
     @GetMapping("/")
     public String index(Model model) {
         model.addAttribute("products", products);
-        return "index";
+        return "list-product";
     }
 
     @GetMapping("/add")
