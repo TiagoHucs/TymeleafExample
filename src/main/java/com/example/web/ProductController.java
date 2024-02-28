@@ -18,6 +18,7 @@ public class ProductController {
     @GetMapping("/")
     public String index(Model model) {
         model.addAttribute("products", products);
+        model.addAttribute("nomeUsuario", "Sherlock Holmes");
         return "list-product";
     }
 
@@ -32,4 +33,5 @@ public class ProductController {
         products.add(product);
         return "redirect:/";
     }
+
 }
