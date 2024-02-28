@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>TymeleafExample</artifactId>
+	<artifactId>WebApplication</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>TymeleafExample</name>
-	<description>Demo project for Spring Boot and tymeleaf</description>
+	<name>WebApplication</name>
+	<description>Demo project for Spring Boot web application with tymeleaf</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

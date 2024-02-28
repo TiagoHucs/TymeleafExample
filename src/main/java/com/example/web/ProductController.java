@@ -1,6 +1,6 @@
-package com.example.TymeleafExample.controller;
+package com.example.web;
 
-import com.example.TymeleafExample.model.Product;
+import com.example.model.Product;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

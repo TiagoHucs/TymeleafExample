@@ -1,0 +1,1 @@
+Demo project for Spring Boot web application with tymeleaf

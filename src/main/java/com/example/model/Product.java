@@ -1,4 +1,4 @@
-package com.example.TymeleafExample.model;
+package com.example.model;
 
 public class Product {
     private String name;
